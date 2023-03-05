@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ratings</title>
+    <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="movieApp.css">
+</head>
+<body>
+    <h1>One safe place for your honest reviews!</h1>
+    <h3>Have some riveting hot takes that you know better than to bring up with your family and friends? <br> Add them to our list here for safe keeping!</h3>
+    <div class="add-movie">
+        <form>
+            <input class="title" type="text" minlength="2" value="Movie Title">
+            <input class="rating" type="number" min="1" max="10" value="5">
+            <button id="add" type="button">Add Movie!</button>
+        </form>
+    </div>
+    <div class="sort">
+        <button type="button" class="sort-btn" id="title-asc">Sort Ascending by Title</button>
+        <button type ="button" class="sort-btn" id="title-desc">Sort Descending by Title</button>
+    <button type ="button" class="sort-btn" id="rating-asc">Sort Ascending by Rating</button>            
+        <button type ="button" class="sort-btn" id="rating-desc">Sort Descending by Rating</button>
+    </div>
+    <div class="movies">
+        <ol class="movie-list">
+
+        </ol>
+    </div>
+    <script src="movieApp.js"></script>
+</body>
+</html>

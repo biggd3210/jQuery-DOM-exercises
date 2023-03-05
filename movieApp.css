@@ -1,0 +1,59 @@
+body {
+    background-color: #60a3bc;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.569);
+    background-color: #a4b0be;
+}
+
+.rating {
+    color: rgba(0, 0, 0, 0.569);
+    background-color: #a4b0be;
+}
+
+#add {
+    background-color: #a4b0be;
+    border-radius: 10px;
+}
+
+.add-movie {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.movie-list {
+    list-style-position: inside;
+    text-align: center;
+}
+
+button.remove {
+    margin: auto;
+    margin-left: 10px;
+    background-color: #a4b0be;
+    border-radius: 10px;
+}
+
+.sort {
+    margin: auto;
+    text-align: center;
+}
+
+.sort-btn {
+    background-color: #a4b0be;
+    border-radius: 10px;
+    margin-top: 10px;
+}
